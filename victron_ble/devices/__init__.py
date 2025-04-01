@@ -82,6 +82,8 @@ def detect_device_type(data: bytes) -> Optional[Type[Device]]:
         return BatteryMonitor
     elif mode == 0xD:  # DcEnergyMeter
         return DcEnergyMeter
+    elif mode == 0x08:  # SmartCharger
+        return SmartCharger
     elif mode == 0x8:  # AcCharger
         pass
     elif mode == 0x4:  # DcDcConverter
