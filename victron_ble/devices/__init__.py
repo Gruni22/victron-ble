@@ -62,6 +62,7 @@ MODEL_PARSER_OVERRIDE: Dict[int, Type[Device]] = {
     0xA339: SmartCharger,  # Blue Smart Charger IP65/67
     0xA322: SmartCharger,  # Blue Smart Charger IP22
     0xA323: SmartCharger,  # Blue Smart Charger IP22
+    0xA32F: SmartCharger,  # Blue Smart Charger IP22
 }
 
 
