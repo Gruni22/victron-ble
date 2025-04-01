@@ -35,7 +35,7 @@ setup(
     name="victron_ble",
     version=read("victron_ble", "VERSION"),
     description="Python API to read Victron Instant Readout advertisements",
-    url="https://github.com/keshavdv/victron-ble/",
+    url="https://github.com/Gruni22/victron-ble",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
     author="keshavdv",
