@@ -59,8 +59,65 @@ __all__ = [
 MODEL_PARSER_OVERRIDE: Dict[int, Type[Device]] = {
     0xA3A4: BatterySense,  # Smart Battery Sense
     0xA3A5: BatterySense,  # Smart Battery Sense
-    0xA339: SmartCharger,  # Blue Smart Charger IP65/67
-    0xA32F: SmartCharger,  # Blue Smart Charger IP22
+    0xA300: SmartCharger,  # Blue Smart Charger - Generic
+    0xA301: SmartCharger,  # Blue Smart IP65 Charger 12|10
+    0xA302: SmartCharger,  # Blue Smart IP65 Charger 12|15
+    0xA303: SmartCharger,  # Blue Smart IP65 Charger 24|8
+    0xA304: SmartCharger,  # Blue Smart IP65 Charger 12|5
+    0xA305: SmartCharger,  # Blue Smart IP65 Charger 12|7
+    0xA306: SmartCharger,  # Blue Smart IP65 Charger 24|5
+    0xA307: SmartCharger,  # Blue Smart IP65 Charger 12|4
+    0xA308: SmartCharger,  # Blue Smart IP65s Charger 12|4
+    0xA309: SmartCharger,  # Blue Smart IP65s Charger 12|5
+    0xA30A: SmartCharger,  # Blue Smart IP65 Charger 12|25
+    0xA30B: SmartCharger,  # Blue Smart IP65 Charger 24|13
+    0xA30C: SmartCharger,  # Blue Smart IP65 Charger 6V/12V-1.1A
+    0xA30D: SmartCharger,  # Blue Smart IP65s Charger 12/4
+    0xA30E: SmartCharger,  # Blue Smart IP65s Charger 12/5
+    0xA30F: SmartCharger,  # Blue Smart IP65 Charger 12/7
+    0xA310: SmartCharger,  # Blue Smart IP67 Charger 12|7
+    0xA311: SmartCharger,  # Blue Smart IP67 Charger 12|13
+    0xA312: SmartCharger,  # Blue Smart IP67 Charger 24|5
+    0xA313: SmartCharger,  # Blue Smart IP67 Charger 12|17
+    0xA314: SmartCharger,  # Blue Smart IP67 Charger 12|25
+    0xA315: SmartCharger,  # Blue Smart IP67 Charger 24|8
+    0xA316: SmartCharger,  # Blue Smart IP67 Charger 24|12
+    0xA317: SmartCharger,  # Blue Smart IP67 Charger 12/7
+    0xA318: SmartCharger,  # Blue Smart IP67 Charger 12/13
+    0xA319: SmartCharger,  # Blue Smart IP67 Charger 24/5
+    0xA31A: SmartCharger,  # Blue Smart IP67 Charger 12/17
+    0xA31B: SmartCharger,  # Blue Smart IP67 Charger 12/25
+    0xA31C: SmartCharger,  # Blue Smart IP67 Charger 24/8
+    0xA31D: SmartCharger,  # Blue Smart IP67 Charger 24/12
+    0xA320: SmartCharger,  # Blue Smart IP22 Charger 12|15 (1)
+    0xA321: SmartCharger,  # Blue Smart IP22 Charger 12|15 (3)
+    0xA322: SmartCharger,  # Blue Smart IP22 Charger 12|20 (1)
+    0xA323: SmartCharger,  # Blue Smart IP22 Charger 12|20 (3)
+    0xA324: SmartCharger,  # Blue Smart IP22 Charger 12|30 (1)
+    0xA325: SmartCharger,  # Blue Smart IP22 Charger 12|30 (3)
+    0xA326: SmartCharger,  # Blue Smart IP22 Charger 24|8 (1)
+    0xA327: SmartCharger,  # Blue Smart IP22 Charger 24|8 (3)
+    0xA328: SmartCharger,  # Blue Smart IP22 Charger 24|12 (1)
+    0xA329: SmartCharger,  # Blue Smart IP22 Charger 24|12 (3)
+    0xA32A: SmartCharger,  # Blue Smart IP22 Charger 24|16 (1)
+    0xA32B: SmartCharger,  # Blue Smart IP22 Charger 24|16 (3)
+    0xA32C: SmartCharger,  # Blue Smart IP22 Charger 12/15 (1)
+    0xA32D: SmartCharger,  # Blue Smart IP22 Charger 12/15 (3)
+    0xA32E: SmartCharger,  # Blue Smart IP22 Charger 12/20 (1)
+    0xA32F: SmartCharger,  # Blue Smart IP22 Charger 12/20 (3)
+    0xA330: SmartCharger,  # Blue Smart IP22 Charger 12/30 (1)
+    0xA331: SmartCharger,  # Blue Smart IP22 Charger 12/30 (3)
+    0xA332: SmartCharger,  # Blue Smart IP22 Charger 24/8 (1)
+    0xA333: SmartCharger,  # Blue Smart IP22 Charger 24/8 (3)
+    0xA334: SmartCharger,  # Blue Smart IP22 Charger 24/12 (1)
+    0xA335: SmartCharger,  # Blue Smart IP22 Charger 24/12 (3)
+    0xA336: SmartCharger,  # Blue Smart IP22 Charger 24/16 (1)
+    0xA337: SmartCharger,  # Blue Smart IP22 Charger 24/16 (3)
+    0xA338: SmartCharger,  # Blue Smart IP65 Charger 12/10
+    0xA339: SmartCharger,  # Blue Smart IP65 Charger 12/15
+    0xA33A: SmartCharger,  # Blue Smart IP65 Charger 24/5
+    0xA33B: SmartCharger,  # Blue Smart IP65 Charger 24/8
+    0xA33C: SmartCharger,  # Blue Smart IP65 Charger 12/5
 }
 
 
